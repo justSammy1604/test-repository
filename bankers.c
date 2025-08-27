@@ -3,7 +3,7 @@
 #include <stdbool.h>
 
 int need[100][100], allot[100][100], max[100][100], available[100];
-bool isFinished[100];
+bool isFinished[100]; 
 int sequence[100];
 
 void isSafe(int N, int M)
