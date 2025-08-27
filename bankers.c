@@ -10,7 +10,7 @@ void isSafe(int N, int M)
 {
     int i, j, work[100], count = 0;
     for (i = 0; i < M; i++)
-        work[i] = available[i];
+        work[i] = available[i]; 
     for (i = 0; i < 100; i++)
         isFinished[i] = false;
     while (count < N)
